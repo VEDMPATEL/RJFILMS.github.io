@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+
+        html,body{
+
+            height: 100%;
+            width: 100%;
+            margin: 0;
+        }
+        .main{
+
+            height: 100%;
+            width: 100%;
+            position: relative;
+
+        }
+        .nav{
+
+            height: 100px;
+            width: 100%;
+            background-color:darkgray;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        h2 img{
+
+            height: 90px;
+            border-radius: 50%;
+            padding: 0 3vw;
+            margin-top: 5px;
+            
+        }
+        .nav-part2 {
+
+            display: flex;
+            align-items: center;
+            gap: 4vw; 
+            margin-right: 3.8vw;
+            font-size: 1.4vw;
+            text-decoration: none;
+            transition: 0.8s all;
+        }  
+        .nav i {
+
+            font-weight: 800;
+            display: none;
+        }  
+        .content{
+
+            height: calc(100% - 100px);
+            width: 100%;
+            display: flex;
+            position: relative;
+        }
+        .right{
+
+            height: 100%;
+            width: 50%;
+            background-color: #3F2E3E;
+        }
+        .left h1{
+
+            font-size: 3.7VW;
+            color: #3F2E3E;
+            padding: 1.7vw 2.5vw;
+            font-family: modern,Haettenschweiler ;
+        }
+        .left span{
+
+            color: brown;
+            font-family: serif;
+            
+        }
+        .img-1{
+
+            height: 23vw;
+            margin-left: 7.7vw;
+            margin-top: 5.3vw;
+        }
+        .img-2{
+
+            height: 23vw;
+            width: 34.9vw;
+            margin-left: 7.3vw;
+            margin-top: 5.3vw;
+        }
+        .img-3{
+
+            height: 23vw;
+            margin-left: 16.5vw;
+            margin-top: 5.3vw;
+            
+        }
+        .left{
+
+            height: 100%;
+            width: 50%;
+            background-color: #A8A196;
+        }
+        #carouselExampleFade{
+
+            margin-top: 6.4vw;
+            margin-left: 0.4vw;
+        }
+        .left h3{
+            font-size: 1.6VW;
+            color: #3F2E3E;
+            margin-top: 14vw;
+            margin-left: 4.5vw;
+            font-family: modern,Haettenschweiler ;
+            font-weight: 400;
+            display: block;
+            line-height: 3.8vw;
+        }
+        .ved{
+            display: flex;
+            justify-content:  center;
+            align-items: center;
+            margin-top: 9vw;
+            margin-left: 26vw;
+            gap: 4vw;
+        }
+        .ri-instagram-line{
+            color: #A8A196;
+            font-size: 2vw;
+            text-decoration: none;
+        }
+        .ri-facebook-circle-fill{
+            color: #A8A196;
+            font-size: 2vw;
+            text-decoration: none;
+        }
+        .ved span{
+            color: #A8A196;
+            font-size: 1.3vw;
+        }
+        .ved a{
+            text-decoration: none;
+        }
+
+        @media (max-width:600px) {
+
+            html,body{
+
+                height: 100%;
+                width: 100%;
+                margin: 0;
+            }
+
+            .nav{
+
+                height: 100%px;
+                width: 100%;
+                background-color: darkgray;
+
+            }
+
+            h2 img{
+
+                height: 80px;
+                width: 100px;
+                border-radius: 50%;
+                margin-top: 2vw;
+                margin-left: 2.3vw;
+            }
+
+            .nav i {
+
+                display: block;
+                font-size: 6vw;
+                margin-right: 2.5vw;
+                
+            }
+            .right{
+
+                height: 100%;
+                width: 50%;
+                font-size: 3.2vw;
+                color: #3F2E3E;
+            }
+
+            .right h1{
+                font-size:7vw;
+            }
+        
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+    <div class="main">
+
+        <div class="nav">
+            <h2><img src="/Users/ketulpatel/Desktop/css coad/rjfilmslogo.jpeg" alt="logo of rj.films"></h2>
+            <div class="nav-part2">
+    
+                <i class="ri-menu-fold-fill"></i>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <div class="left">
+                <h1> Here we capture some <span>Memorable</span> Movement of Your Life !!  </h1>
+         
+                <h3><li> GOVIND PATEL - +91 9824480143 </li>
+                    
+                    <li> KETUL PATEL - +91 9723067243 </li>
+                   
+                    <li><i class="ri-mail-fill"></i> rjfilms1006@gmail.com </li>
+                </h3>
+            </div>
+
+            <div class="right">
+
+                <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="img-1" src="/Users/ketulpatel/Desktop/DEMO OFFICE/wedding photos/TREN6237 copy.jpg" class="d-block w-100" alt="weeding photography">
+                      </div>
+                      <div class="carousel-item">
+                        <img  class="img-1"  src="/Users/ketulpatel/Desktop/DEMO OFFICE/PRE WEDDING PHOTOS/0B1A0219a.jpg" class="d-block w-100" alt="pre weeding photography">
+                      </div>
+                      <div class="carousel-item">
+                        <img   class="img-2" src="/Users/ketulpatel/Desktop/DEMO OFFICE/edit/DJI_0861a.jpg" class="d-block w-100" alt="classic PHOTO">
+                      </div>
+                      <div class="carousel-item">
+                        <img   class="img-3" src="/Users/ketulpatel/Desktop/DEMO OFFICE/wedding photos/TREN5833 copy.jpg" class="d-block w-100" alt="portrait PHOTOS">
+                      </div>
+                      <div class="carousel-item">
+                        <img   class="img-2" src="/Users/ketulpatel/Desktop/DEMO OFFICE/edit/0B1A0175 2a.jpg" class="d-block w-100" alt="classic PHOTO">
+                      </div>
+                      <div class="carousel-item">
+                        <img   class="img-2" src="/Users/ketulpatel/Desktop/DEMO OFFICE/edit/0B1A0275a.jpg" class="d-block w-100" alt="classic PHOTO">
+                      </div>
+                      <div class="carousel-item">
+                        <img   class="img-2" src="/Users/ketulpatel/Desktop/DEMO OFFICE/edit/0B1A0323a.jpg " class="d-block w-100" alt="classic PHOTO">
+                      </div>
+                      <div class="carousel-item">
+                        <img   class="img-2" src="/Users/ketulpatel/Desktop/DEMO OFFICE/wedding photos/08.jpg" class="d-block w-100" alt="classic PHOTO">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                 <!--i need to apply some contant on here-->
+                 <div class="ved">
+                 <i class="ri-facebook-circle-fill"><a href="https://www.facebook.com/pjokham/"><span>r_j_films</span></a></i>
+                 <i class="ri-instagram-line"><a href="https://www.instagram.com/r_j_films"><span>r_j_films</span></a></i>
+                </div>
+
+
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+
+</html>
